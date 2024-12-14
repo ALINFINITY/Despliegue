@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokéAPI</title>
+    <meta name="author" content="Quilumbaquin Alan">
+    <title>Custom Elements and APIs</title>
 </head>
 
 <body>
@@ -16,7 +17,19 @@
         nameitem4="Perfil" srcitem4="/HTML/Pages_ADD/Profile.html" nameitem5="PokeAPI"
         srcitem5="/HTML/Pages_ADD/Poke.html"></menu-custom>
 
-    <gallery-custom srcAPI="https://pokeapi.co/api/v2/pokemon?limit=100&offset=0"></gallery-custom>
+
+    <socialprofile-custom></socialprofile-custom>
+
+    <main-custom>
+        <h1>Hola desde el slot</h1>
+        <p>Las APIs son muy divertidas y los Pokemons son fantásticos</p>
+        <img src="https://th.bing.com/th/id/R.f4699df7bc717c9f8996da48bfec7879?rik=HN6hDpxxbhpTMQ&pid=ImgRaw&r=0"
+            alt="pikachu" width="200px">
+    </main-custom>
+
+    <table-custom srcAPI="https://jsonplaceholder.typicode.com/users"></table-custom>
+
+    <gallery-custom srcAPI="https://pokeapi.co/api/v2/pokemon?limit=10&offset=0"></gallery-custom>
 
     <footer-custom company="AlanCorp" srcimgfk="/Resources/facebook_ico.png" srcimgig="/Resources/instagram_ico.png"
         srcimgx="/Resources/x_ico.png" languaje="Español" fklink="https://www.facebook.com/Pokemon/"
@@ -27,8 +40,10 @@
     <!--Scripts de los componentes-->
     <script src="/JS/header.js"></script>
     <script src="/JS/footer.js"></script>
+    <script src="/JS/main.js"></script>
     <script src="/JS/menu.js"></script>
+    <script src="/JS/socialprofile.js"></script>
+    <script src="/JS/customtable.js"></script>
     <script src="/JS/gallery.js"></script>
 </body>
-
 </html>
