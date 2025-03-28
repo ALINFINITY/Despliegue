@@ -56,7 +56,7 @@ class menu extends HTMLElement{
             .container ul{
                 display: flex;
                 flex-direction: row;
-                justify-content: start;
+                justify-content: space-between;
                 gap: 10px;
                 list-style-type: none;
                 flex-wrap: wrap;
